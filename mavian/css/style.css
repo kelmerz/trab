@@ -1,0 +1,152 @@
+body {
+    background-image: linear-gradient(#030D4F, #021382);
+    color: white;
+    display: flex;
+}
+
+.palavra{
+    color: #EEBF18;
+}
+
+.titulo{
+    color: white;
+    font-family: "Montserrat", Montserrat, sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+
+}
+
+.subtitulo {
+    color: white;
+    font-family: "Montserrat", Montserrat, sans-serif;
+    font-weight: lighter;
+    font-size: 30px;
+}
+
+.subsubtitulo {
+    color: black;
+    font-family: "Montserrat", Montserrat, sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+}
+
+
+.button {
+    height: 53px;
+    width: 360px;
+    background-color: #EEBF18;
+    border-radius: 30px;
+    border-left: 15px;
+    font-family: "Montserrat", Montserrat, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    border: transparent;
+    color: white;
+
+}
+
+.input_form {
+    width: 418px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid silver;
+    box-shadow: inset 0px 0px 0px 0px;
+    color: black;
+    padding: 10px 10px 10px 0px;
+    font-family: "Montserrat", Montserrat, sans-serif;
+    font-weight: Medium;
+    font-size: 20px;
+    border-radius: 0px;
+}
+
+.input_form::placeholder {
+    color: black;
+}
+
+.box {
+    width: 430px;
+    height: 570px;
+    background-color: white;
+    padding: 10px 10px 10px 10px;
+    border-radius: 73px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+    position: absolute;
+    left: 72%;
+    top: 16%;
+}
+
+.text {
+    color: black;
+    font-family: "Montserrat", Montserrat, sans-serif;
+    font-weight: lighter;
+    font-size: 16px;
+    padding: 10px;
+}
+
+.clicktext {
+    color: #031278;
+}
+
+.image  {
+
+    position: absolute;
+    top: 141px;
+    left: 12%;
+}
+
+.texto {
+    position: absolute;
+    top: 22%;
+    left: 90px;
+}
+
+.textinho {
+    position: relative;
+    color: black;
+    font-family: "Montserrat", Montserrat, sans-serif;
+    font-weight: lighter;
+    font-size: 20px;
+    bottom: 25px;
+    text-align: center;
+}
+
+.box2 {
+    width: 430px;
+    height: 470px;
+    background-color: #E7EDEA;
+    padding: 10px 10px 10px 10px;
+    border-radius: 73px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+    position: absolute;
+    left: 72%;
+    top: 16%;
+}
+
+.box3 {
+    width: 430px;
+    height: 420px;
+    background-color: #E7EDEA;
+    padding: 10px 10px 10px 10px;
+    border-radius: 73px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+    position: absolute;
+    left: 72%;
+    top: 16%;
+}

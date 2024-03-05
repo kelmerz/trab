@@ -1,0 +1,9 @@
+Use mavian;
+
+
+create table usuario (
+    email varchar(50),
+    senha varchar(100),
+    cpf varchar(11),
+    telefone varchar(15)
+)

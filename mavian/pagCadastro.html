@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title> Mavian Bank </title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="css/style.css">
+        <script src="js/cadastrar.js" defer></script>
+    </head>
+    <body>
+        <div class="texto">
+            <h1 class="titulo">
+                Sua <label class="palavra">segurança</label> <br>
+                e tranquilidade <label class="palavra">financeira</label>.
+            </h1>
+            <h2 class="subtitulo">
+                Conta gratuita, cartão de débito, <br> pagamentos e muito mais.
+            </h2>
+        </div>
+
+        <div class="image">
+            <img src="images/girlCard.png" width="1520px" height="810px">
+        </div>
+        
+        <span >
+            <form id="formCadastro" class="box">
+                <h2 class="subsubtitulo"> Crie sua conta </h2>
+                <input type="text" name="email" id="email" placeholder="E-mail" class="input_form"> <br> <br>
+                <input type="password" name="senha" id="senha" placeholder="Senha" class="input_form" minlength="8"> <br> <br>
+                <input type="text" name="cpf" id="cpf" placeholder="CPF" class="input_form"> <br> <br>
+                <input type="text" name="telefone" id="telefone" placeholder="Telefone" class="input_form"> <br> <br>
+                <button type="button" onclick="gravar()" class="button"> Continuar </button>
+                <label class="text"> Já possui conta? <a href="pagLogin.html"><label class="clicktext"> Clique aqui. </a></label></label>
+            </form>
+        </span>
+    </body>
+</html>
