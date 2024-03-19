@@ -1,9 +1,12 @@
+
 <html>
     <head>
         <title> Mavian Bank </title>
         <meta charset="UTF-8">
         <link rel="stylesheet" href="css/style.css">
+        <script src="js/cryptojs.js"></script>
         <script src="js/cadastrar.js" defer></script>
+  
     </head>
     <body>
         <div class="texto">
@@ -24,12 +27,13 @@
             <form id="formCadastro" class="box">
                 <h2 class="subsubtitulo"> Crie sua conta </h2>
                 <input type="text" name="email" id="email" placeholder="E-mail" class="input_form"> <br> <br>
-                <input type="password" name="senha" id="senha" placeholder="Senha" class="input_form" minlength="8"> <br> <br>
+                <input type="password" id="senha" name="senha" placeholder="Senha" class="input_form"> <br> <br>
                 <input type="text" name="cpf" id="cpf" placeholder="CPF" class="input_form"> <br> <br>
                 <input type="text" name="telefone" id="telefone" placeholder="Telefone" class="input_form"> <br> <br>
                 <button type="button" onclick="gravar()" class="button"> Continuar </button>
                 <label class="text"> Já possui conta? <a href="pagLogin.html"><label class="clicktext"> Clique aqui. </a></label></label>
             </form>
         </span>
+
     </body>
 </html>
